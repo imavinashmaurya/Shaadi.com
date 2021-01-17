@@ -1,0 +1,88 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="NormalText">
+        <item name="fontFamily">@font/heebo</item>
+        <item name="android:fontFamily">@font/heebo</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="NormalBoldText">
+        <item name="fontFamily">@font/heebo_bold</item>
+        <item name="android:fontFamily">@font/heebo_bold</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="MediumText">
+        <item name="fontFamily">@font/heebo_medium</item>
+        <item name="android:fontFamily">@font/heebo_medium</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="MediumBoldText">
+        <item name="fontFamily">@font/heebo_bold</item>
+        <item name="android:fontFamily">@font/heebo_bold</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="LargeText">
+        <item name="fontFamily">@font/heebo</item>
+        <item name="android:fontFamily">@font/heebo</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomDialogTitle">
+        <item name="fontFamily">@font/heebo</item>
+        <item name="android:fontFamily">@font/heebo</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CustomDialogDescription">
+        <item name="fontFamily">@font/heebo</item>
+        <item name="android:fontFamily">@font/heebo</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="CustomDialogPositiveButton">
+        <item name="fontFamily">@font/heebo</item>
+        <item name="android:fontFamily">@font/heebo</item>
+        <item name="android:textColor">@color/btTextColor</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="CustomDialogNegativeButton">
+        <item name="fontFamily">@font/heebo</item>
+        <item name="android:fontFamily">@font/heebo</item>
+        <item name="android:textColor">@color/btTextColor</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="CustomToastMessage">
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/heebo</item>
+        <item name="android:fontFamily">@font/heebo</item>
+    </style>
+</resources>

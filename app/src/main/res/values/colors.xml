@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#359bdb</color>
+    <color name="colorPrimaryDark">#006da9</color>
+    <color name="colorAccent">#74ccff</color>
+
+    <color name="colorGray">#4f545a</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="primaryText">#444444</color>
+    <color name="btTextColor">@color/colorPrimary</color>
+    <color name="bottomSheetTitleBac">#EDF0F6</color>
+    <color name="textColor">#566575</color>
+    <color name="imageBorderColor">#DFE5F0</color>
+    <color name="toastBackground">#F0F0F0</color>
+    <color name="toastBackgroundBlack">#EB000000</color>
+    <color name="colorGreen">#066E03</color>
+    <color name="colorRed">#8E0E05</color>
+</resources>
